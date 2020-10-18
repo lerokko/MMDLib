@@ -563,9 +563,9 @@ public abstract class VillagerTrades {
 			}
 
 			if (numTrades > 0) {
-				recipeList.add(new MerchantRecipe(in1, in2, out, 0, numTrades));
+				//recipeList.add(new MerchantRecipe(in1, in2, out, 0, numTrades));
 			} else {
-				recipeList.add(new MerchantRecipe(in1, in2, out));
+				//recipeList.add(new MerchantRecipe(in1, in2, out));
 			}
 		}
 	}
