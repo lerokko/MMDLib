@@ -222,8 +222,7 @@ public abstract class VillagerTrades {
 			final int career = (k >> 8) & 0xFF;
 			final int level = k & 0xFF;
 
-			VillagerTradeHelper.insertTrades(profession, career, level,
-					new MultiTradeGenerator(TRADES_PER_LEVEL, trades));
+			//VillagerTradeHelper.insertTrades(profession, career, level, new MultiTradeGenerator(TRADES_PER_LEVEL, trades));
 		}
 	}
 
